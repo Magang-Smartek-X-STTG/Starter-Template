@@ -1,0 +1,8 @@
+1. npm i -g eslint
+2. eslint --init
+3. install eslint extensi
+4. tambah scritp "lint": "eslint .", "lint-fix": "eslint . --fix"
+5. save otomatis ctrl + - open setting json
+6. rules: [
+    "no-console": "off"
+]
