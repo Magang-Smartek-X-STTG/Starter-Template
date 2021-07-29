@@ -15,8 +15,8 @@ const Header = () => {
         <img src={Logo} width={30} alt="navbar logo" />
         <div className="ml-10">
           <HeaderLink label="Home" path="/"></HeaderLink>
-          <HeaderLink label="About" path="/"></HeaderLink>
-          <HeaderLink label="Contact" path="/"></HeaderLink>
+          <HeaderLink label="About" path="/Abouth"></HeaderLink>
+          <HeaderLink label="Contact" path="/Contact"></HeaderLink>
         </div>
       </div>
       <div className="flex justify-end w-1/3">
