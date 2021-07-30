@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "../assets/icons/uweb.jpg";
-import { Link } from "react-router-dom";
 import Button from "../elements/button";
 import InputSearch from "../elements/inputSearch";
 import HeaderLink from "../elements/HeaderLink";
