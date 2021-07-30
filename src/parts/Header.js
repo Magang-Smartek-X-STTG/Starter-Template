@@ -7,15 +7,15 @@ import HeaderLink from "../elements/HeaderLink";
 const Header = () => {
   return (
     <header
-      className="flex items-center justify-between sticky"
+      className="flex items-center justify-between sticky container mx-auto"
       style={{ height: 80 }}
     >
       <div className="flex items-center">
         <img src={Logo} width={30} alt="navbar logo" />
         <div className="ml-10">
           <HeaderLink label="Home" path="/"></HeaderLink>
-          <HeaderLink label="About" path="/"></HeaderLink>
-          <HeaderLink label="Contact" path="/"></HeaderLink>
+          <HeaderLink label="About" path="/about"></HeaderLink>
+          <HeaderLink label="Contact" path="/contact"></HeaderLink>
         </div>
       </div>
       <div className="flex justify-end w-1/3">
