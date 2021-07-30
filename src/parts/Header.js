@@ -1,6 +1,9 @@
 import React from "react";
 import Logo from "../assets/icons/uweb.jpg";
 import { Link } from "react-router-dom";
+import Button from "../elements/button";
+import InputSearch from "../elements/inputSearch";
+import HeaderLink from "../elements/HeaderLink";
 
 const Header = () => {
   return (
@@ -11,38 +14,14 @@ const Header = () => {
       <div className="flex items-center">
         <img src={Logo} width={30} alt="navbar logo" />
         <div className="ml-10">
-          <Link
-            className="mx-6 text-white text-xl hover:text-green-400 hover:underline"
-            to="/"
-          >
-            Home
-          </Link>
-          <Link
-            className="mx-6 text-white text-xl hover:text-green-400 hover:underline"
-            to="/"
-          >
-            About
-          </Link>
-          <Link
-            className="mx-6 text-white text-xl hover:text-green-400 hover:underline"
-            to="/"
-          >
-            Contact
-          </Link>
+          <HeaderLink label="Home" path="/"></HeaderLink>
+          <HeaderLink label="About" path="/"></HeaderLink>
+          <HeaderLink label="Contact" path="/"></HeaderLink>
         </div>
       </div>
       <div className="flex justify-end w-1/3">
-        <input
-          type="text"
-          placeholder="Search..."
-          className="mr-5 w-1/2 p-2 text-white rounded-md focus:outline-none bg-gray-500"
-        />
-        <Link
-          className="btn bg-gray-500 hover:bg-gray-400 px-6 py-2 rounded-md text-white text-xl"
-          to="/"
-        >
-          Login
-        </Link>
+        <InputSearch placeholder="Search..."></InputSearch>
+        <Button label="Daftar"></Button>
       </div>
     </header>
   );
