@@ -1,11 +1,12 @@
 import './assets/styles/css/style.css';
-import { Router, Route, Switch } from "react-router-dom";
-import { createBrowserHistory } from "history";
+import { Router, Route, Switch } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+import { Provider } from 'react-redux';
 import Home from './pages/Home';
-import store from './redux/store';
-import {Provider} from 'react-redux';
 import About from './pages/About';
 import Contact from './pages/Contact';
+
+import store from './redux/store';
 
 const history = createBrowserHistory({
   basename: process.env.PUBLIC_URL,

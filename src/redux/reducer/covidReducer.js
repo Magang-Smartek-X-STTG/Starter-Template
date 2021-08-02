@@ -6,3 +6,5 @@ export const covidState = (state = initialState, action) => {
   }
   return state;
 };
+
+export default covidState;

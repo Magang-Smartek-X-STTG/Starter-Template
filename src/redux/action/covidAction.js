@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const getDataCovid = () => (dispatch) => {
+const getDataCovid = () => (dispatch) => {
   axios
     .get(`https://covid.mathdro.id/api`)
     .then((res) => {
@@ -10,3 +10,5 @@ export const getDataCovid = () => (dispatch) => {
       console.log(err?.response?.data?.message);
     });
 };
+
+export default getDataCovid;
