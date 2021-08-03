@@ -2,8 +2,8 @@ import './assets/styles/css/style.css';
 import { Router, Route, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import { Provider } from 'react-redux';
-import Home from './pages/Home';
-import About from './pages/About';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
 import Contact from './pages/Contact';
 
 import store from './redux/store';
