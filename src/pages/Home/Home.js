@@ -21,7 +21,7 @@ const Home = () => {
       <Header />
       <main className="container mx-auto flex flex-col justify-between h-screen">
         <div className="text-center">
-          <h1 className="title text-6xl text-white mt-10">Home Page</h1>
+          <h1 className="title text-6xl text-white mt-10">Home Page Coba Edit Di Branch</h1>
           <p className="text-white text-xl mt-5">
             Heloo my name is
             {dataGlobal.name}
